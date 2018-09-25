@@ -4,5 +4,5 @@ function calcularSoma(){
 
 	let resultado = document.getElementById("resultado")
 
-	resultado.innerHTML = parseFloat(n1)-parseFloat(n2);
+	resultado.innerHTML = parseFloat(n1)+parseFloat(n2);
 }
