@@ -6,28 +6,28 @@ body{
 .container{
 	border: 2px solid #ccc;
 	background-color: #ddd;
-	max-width: 350px;
+	width: 700px;
 	height: 500px;
 	border:2px solid #ddd;
 	
 }
 form{
-	text-align: center;
+	
 }
 label{
-	float:left;
+	
 	color:#b0b0b0;
+	margin-right: 250px;
 }
 input::placeholder{
 	color:#aaa;
 }
 input{
-	clear:both;
-	margin-top: 5px;
+	margin-top: 10px;
 	height: 30px;
-	border-radius: 3px;
+	border-radius: 5px;
 	width: 300px;
-	margin-bottom: 5px;
+	margin-bottom:25px;
 
 }
 #resultado{
@@ -43,4 +43,7 @@ button{
 	height: 80px;
 	font-size: 35px;
 	color: #eee;
+}	
+#sub{
+	float: left;
 }
